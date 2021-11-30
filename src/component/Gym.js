@@ -1,5 +1,6 @@
 import React from 'react';
 import './Style.css';
+import { FaMobile, FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 export default function Gym() {
     return (
@@ -129,12 +130,12 @@ export default function Gym() {
 		</div>
 	</div>
 		<div class="contact-right-col">
-			<h1><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail</h1> <p>contact@gympoint.com</p><br/>
- 			<h1><i class="fa fa-phone" aria-hidden="true"></i> Mobile</h1><p>8741253941, 8741253942</p>
+			<h1><FaEnvelope/> E-mail</h1> <p>contact@gympoint.com</p><br/>
+ 			<h1><FaMobile/> Mobile</h1><p>    8741253941, 8741253942</p>
  			<br/>
- 			<h1><i class="fa fa-location-arrow" aria-hidden="true"></i> Address</h1>
- 			 <p>Gym Point<br/>
- 			 	Boring Road, Patna
+ 			<h1><FaLocationArrow/> Address</h1>
+ 			 <p>    Gym Point<br/>
+ 			 	    Boring Road, Patna
  			 </p>
 		</div>
 </div>
@@ -149,6 +150,6 @@ export default function Gym() {
 
 </section>
 
-        </div>
+</div>
     )
 }
